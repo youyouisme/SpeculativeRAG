@@ -39,7 +39,7 @@ python main.py --method zero_shot --dataset MMLU_Gene --model_name gpt-4o-mini -
 ```
 
 **Arguments:**
-- `task`: `zero_shot`, `rag`, `rag_cot`, `rap`, `rat`
+- `method`: `zero_shot`, `rag`, `rag_cot`, `rap`, `rat`
 - `dataset`: `MMLU_Col_Med`, `MMLU_Col_Bio`, `MMLU_Pro_Med`, `MMLU_Anatomy`, `MMLU_Gene`, `MMLU_Clinic`,`medqa`, `medmcqa`, `pubmedqa`
 - `model_name`: `gpt-4o-mini`, `gpt-3.5-turbo`, `Qwen/Qwen2.5-7B`, `Qwen/Qwen2.5-14B`, `Qwen/Qwen2.5-32B`, `Qwen/Qwen2.5-72B`, `LLaMA/llama-3-8B-Instruct`, `LLaMA/llama-3-70B-Instruct`
 - `k`: The number of chunks to retrieve (default is 5)
@@ -61,7 +61,7 @@ python main.py --method qag_speculator --dataset MMLU_Gene --model_name gpt-4o-m
 ```
 
 **Arguments:**
-- `task`: `qag_speculator`
+- `method`: `qag_speculator`
 - `dataset`: `medqa`, `medmcqa`, `pubmedqa`, `MMLU_Col_Med`, `MMLU_Col_Bio`, `MMLU_Pro_Med`, `MMLU_Anatomy`, `MMLU_Gene`, `MMLU_Clinic`
 - `model_name`: `Qwen/Qwen2.5-7B`, `Qwen/Qwen2.5-14B`, `Qwen/Qwen2.5-32B`, `Qwen/Qwen2.5-72B`, `LLaMA/llama-3-8B-Instruct`, `LLaMA/llama-3-70B-Instruct`
 - `k`: The number of chunks to retrieve
@@ -73,7 +73,7 @@ python main.py --method qag_answer --dataset MMLU_Gene --model_name gpt-4o-mini 
 ```
 
 **Arguments:**
-- `task`: `qag_answer`
+- `method`: `qag_answer`
 - `dataset`: `medqa`, `medmcqa`, `pubmedqa`, `MMLU_Col_Med`, `MMLU_Col_Bio`, `MMLU_Pro_Med`, `MMLU_Anatomy`, `MMLU_Gene`, `MMLU_Clinic`
 - `model_name`: `Qwen/Qwen2.5-7B`, `Qwen/Qwen2.5-14B`, `Qwen/Qwen2.5-32B`, `Qwen/Qwen2.5-72B`, `LLaMA/llama-3-8B-Instruct`, `LLaMA/llama-3-70B-Instruct`
 - `k`: The number of chunks to retrieve
